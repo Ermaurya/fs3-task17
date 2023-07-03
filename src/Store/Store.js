@@ -1,5 +1,5 @@
 import { legacy_createStore as createStore } from "redux";
-import myReducer from "../Reducers/myReducer";
+import myReducer from "../Reducers/reducer";
 
 let store = createStore(myReducer);
 
